@@ -7,10 +7,16 @@ API desenvolvida durante o curso de Programação Back End, sob a mentoria do Pr
 
 
 ## Features
+- Listar todos os Projetos cadastrados
+- Buscar um Projetos por Id
+- Atualizar um Projetos
+- Deletar um Projetos 
 
 
 ## Tecnologias utilizadas 👨‍💻️
 - ASP.NET Core 6.0
+- Visual Studio
 - Microsoft EntityFramework SQLServer
 - Microsoft SQL Server Management Studio (SSMS)
 - Swagger
+- Insomnia
