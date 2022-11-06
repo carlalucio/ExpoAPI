@@ -1,5 +1,6 @@
 ﻿using ExoAPI.Models;
 using ExoAPI.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,7 @@ namespace ExoAPI.Controllers
     [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ProjetoController : ControllerBase
     {
         private readonly ProjetoRepository _projetoRepository;
@@ -79,6 +81,7 @@ namespace ExoAPI.Controllers
                 throw;
             }
         }
+        [Authorize(Roles ="1")]
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {
