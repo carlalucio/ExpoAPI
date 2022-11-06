@@ -3,10 +3,13 @@
 API desenvolvida durante o curso de Programação Back End, sob a mentoria do Prof. Luiz Carlos M. Lozano, aplicando os seguintes conceitos:
 - Padrão MVC
 - API Rest
+- JWT  Bearer
 - Documentação utilizando Swagger
 
 
 ## Features
+- Cadastrar Usuarios
+- Fazer Login
 - Listar todos os Projetos cadastrados
 - Buscar um Projetos por Id
 - Atualizar um Projetos
